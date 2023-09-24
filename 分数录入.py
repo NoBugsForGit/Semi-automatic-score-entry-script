@@ -1,10 +1,6 @@
 import xlwings as xw
 a='''
-42. 王舒仪 80
-43. 叶双源 127
-44. 张笑语 118
-45. 韩馥茹  98
-46. 王思思 91
+name
 '''
 
 print(a )
@@ -20,7 +16,7 @@ for j in range(0,len(li)):
         c.append(li[j])
 print(names)
 print(c)
-E=xw.Book(r"F:\6班月考成绩单.xlsx")
+E=xw.Book(r"F:\.xlsx")
 sh=E.sheets["sheet1"]
 
 for i in range(3,61):
